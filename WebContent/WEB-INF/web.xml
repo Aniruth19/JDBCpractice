@@ -1,0 +1,22 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="3.1">
+
+    <servlet>
+        <servlet-name>AddStudent</servlet-name>
+        <servlet-class>Servlet.AddStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddStudent</servlet-name>
+        <url-pattern>/addStudent</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>EnrollStudent</servlet-name>
+        <servlet-class>Servlet.EnrollStudentServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EnrollStudent</servlet-name>
+        <url-pattern>/enrollStudent</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+

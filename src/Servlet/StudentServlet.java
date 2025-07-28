@@ -3,9 +3,10 @@ package Servlet;
 import Dao.StudentDAO;
 import Model.Student;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.*;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.*;
+
 import java.io.IOException;
 
 @WebServlet("/addStudent")
